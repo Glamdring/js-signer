@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>js-signer simple demo</title>
+<script src="sign.js" type="text/javascript"></script>	 
+</head>
+<body>
+
+Text to sign: <input id="text" type="text" />
+<input onclick="document.getElementById('signature').value = signText(document.getElementById('text').value);" type="button" value="Sign" />
+<br /><br />
+Result:<br />
+<textarea id="signature"></textarea>
+
+</body>
+</html>
