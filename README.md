@@ -1,7 +1,7 @@
 js-signer
 =========
 
-Digitally sign content by using only javascript.
+Digitally sign content by using only javascript. Smart cards are supported. Self-signed certificates may or may not work.
 
 Supported browsers: Internet Explorer (CAPICOM), Firefox (window.crypto)
 
