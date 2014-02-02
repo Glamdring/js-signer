@@ -18,8 +18,7 @@ function sign(src) {
 }
 
 function sign_NS(src) {
-    var s = crypto.signText(src, "ask");
-    return s;
+    return crypto.signText(src, "ask");
 }
 
 // CAPICOM constants
