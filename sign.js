@@ -49,7 +49,7 @@ function findCertificateByHash() {
         // open the current users personal certificate store
         store.Open(CAPICOM_CURRENT_USER_STORE, "My", CAPICOM_STORE_OPEN_READ_ONLY);
 
-		var certificates = MyStore.Certificates.Select(); 
+	var certificates = store.Certificates.Select(); 
 					
         var signer = new ActiveXObject("CAPICOM.Signer");
         signer.Certificate = certificates.Item(1);
