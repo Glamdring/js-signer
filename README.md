@@ -1,5 +1,6 @@
 js-signer
 =========
+<strong><a href="https://techblog.bozho.net/electronic-signatures-using-the-browser/">See this article</a> for working options</strong>
 
 <strong>Important updates</strong>: this code won't reliably work anymore. If you don't need smartcard support, use the experimental web crypto API. If you need smartcard support, you'd need an extra plugin, e.g. <a href="http://open-eid.github.io/">this one</a>
 
